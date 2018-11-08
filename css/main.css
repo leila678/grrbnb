@@ -1,4 +1,4 @@
-@import url('some google sans-serif font');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 /* make sure to select a new google font and use it for your header */
 
 *{
@@ -11,14 +11,14 @@
     box-sizing: inherit;
 }
 html{
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 main{
     width: 90%;
     margin: 0 auto;
-    border: 1px solid #aaa;
+    border: 1px solid hsl(236, 69%, 35%);
 }
 header{
     /* Photo by Wyatt Ryan on Unsplash */
@@ -68,7 +68,7 @@ input.price#max::after{
     content: "$" attr(data-price);
     display: block;
     margin-top: -1.5rem;
-    color: #835A59;
+    color: hsl(353, 54%, 22%);
 }
 
 .search-btn{
